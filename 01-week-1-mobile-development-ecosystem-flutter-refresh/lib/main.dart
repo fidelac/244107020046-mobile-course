@@ -15,9 +15,14 @@ class MyApp extends StatelessWidget {
         body: const Center(
           child: Column(mainAxisSize: MainAxisSize.min, children:[
             Icon(Icons.school, size: 72),
-            SizedBox(height: 16),
-            Text('Fidela Clarisa ', style: TextStyle(fontSize: 24)),
-            Text('Pemograman Mobile - Minggu 1'),
+            SizedBox(height: 16),  
+            Text('Fidela Clarisa ', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+            SizedBox(height: 8),
+            Text('244107020046', style: TextStyle(fontSize: 18)),
+            SizedBox(height: 8),
+            Text('D4 Teknik Informatika', style: TextStyle(fontSize: 16)),
+            SizedBox(height: 8),
+            Text('Pemograman Mobile - Minggu 1', style: TextStyle(fontSize: 16)),
           ]),
         ),
       ),
