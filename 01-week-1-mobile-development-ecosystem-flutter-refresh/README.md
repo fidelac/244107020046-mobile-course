@@ -21,7 +21,7 @@ The application displays a student profile page consisting of:
 
 ## Screenshot
 #### Flutter Doctor
-![Flutter Doctor](screenshots/Screenshot-Flutter%20Doctor.jpeg)
+![Flutter Doctor](screenshots/Screenshot-Flutter%20Doctor.png)
 
 #### Flutter Device
 ![Flutter Doctor](screenshots/Screenshot-Flutter%20Devices.png)
@@ -34,3 +34,6 @@ The application displays a student profile page consisting of:
 - r (Hot reload) = memperbarui perubahan kode dengan lebih cepat tanpa memulai ulang aplikasi secara keseluruhan. Pada gambar diatas, proses hot reload membutuhkan waktu sekitar 668–925 ms.
 
 - R (Hot Restart) = menjalankan ulang aplikasi dari awal sehingga state sementara aplikasi akan di-reset, dan pada proses hot restart membutuhkan waktu sekitar 1.1 detik.
+
+#### Reflection
+[Week 01 Reflection](../notes/reflections/Week01.md).
