@@ -11,4 +11,4 @@
 - dengan menyesuaikan tampilan ukuran layar, hingga tampilan tetap responsive dan konsisten. sementara itu theme menjaga konsistensi warna, typography dan komponen UI.  
 
 #### 4. Apa yang Anda verifikasi dari rekomendasi AI setelah tugas inti selesai?
-- 
+- Saya memverifikasi bahwa layout dashboard tetap responsif pada layar sempit (<600 px) dan layar lebar, penggunaan Expanded tidak menyebabkan overflow, serta fitur light/dark mode tetap terbaca. Saya juga memverifikasi aksesibilitas melalui penggunaan Semantics dan memastikan widget yang digunakan tersedia pada Flutter stable. Verifikasi dilakukan menggunakan flutter analyze, flutter test, dan screenshot pada ukuran layar berbed

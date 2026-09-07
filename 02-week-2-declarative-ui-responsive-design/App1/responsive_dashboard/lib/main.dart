@@ -117,12 +117,10 @@ class InfoCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Semantics(
-      label: '$title: $value',
-      child: Card(
-        child: Padding(
-          padding: const EdgeInsets.all(20),
-          child: Row(
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Row(
             children: [
               Expanded(
                 child: Text(
@@ -141,7 +139,6 @@ class InfoCard extends StatelessWidget {
             ],
           ),
         ),
-      ),
-    );
+      );
   }
 }
