@@ -10,20 +10,20 @@
 
 #
 ### Praktikum Step 4
-![Screenshot](Screenshot/Praktikum.png)
+![Screenshot](screenshot/Praktikum.png)
 
 #### Eksperimen warm-up
 ### 1. Hapus Expanded pada baris nama, lalu amati peringatan overflow atau perilaku layout-nya; kembalikan setelah itu.
 
-![Screenshot](Screenshot/Hapus_Expanded.png)
+![Screenshot](screenshot/Hapus_Expanded.png)
 
 ### 2. Ganti mainAxisSize: MainAxisSize.min menjadi nilai default dan amati perubahan tinggi kartu.
 
-![Screenshot](Screenshot/MainAxisSize.max.png)
+![Screenshot](screenshot/MainAxisSize.max.png)
 
 ### 3. Tambahkan satu baris data (misal Email) menggunakan pola Row + Expanded yang sama.
 
-![Screenshot](Screenshot/AddEmail.png)
+![Screenshot](screenshot/AddEmail.png)
 
 #
 ### Praktikum Step 5
