@@ -55,21 +55,6 @@ final GoRouter appRouter = GoRouter(
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Inisialisasi Firebase.
-  await Firebase.initializeApp();
-
-  // Mendaftarkan handler pesan background.
-  registerBackgroundHandler();
-
-  // Menyiapkan notifikasi lokal.
-  await initLocalNotifications();
-
-  // Meminta izin notifikasi.
-  await requestNotificationPermission();
-
-  // Berlangganan topic pengumuman kampus.
-  await subscribeAnnouncementTopic();
-
   runApp(
     UncontrolledProviderScope(
       container: container,
